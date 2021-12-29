@@ -29,4 +29,22 @@ p {
 .hero p {
   font-size: 36px;
   font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+  color: #272142;
+}
+
+.btn-branding {
+  border-radius: 4;
+  background: #6c63ff;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
