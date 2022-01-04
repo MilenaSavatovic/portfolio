@@ -29,6 +29,31 @@
     <link rel="stylesheet" href="/styles/portfolio.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-design">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-item nav-link active" href="#">
+            Home
+            <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-item nav-link" href="#">About me</a>
+          <a class="nav-item nav-link" href="#">Portfolio</a>
+          <a class="nav-item nav-link" href="#">Contact me</a>
+        </div>
+      </div>
+    </nav>
     <div class="container-fluid">
       <div class="section-lighter">
         <div class="row h-100">
@@ -49,77 +74,71 @@
       </div>
       <div class="section-bcg-darker" id="more">
         <div class="row h-100">
-          <div class="col-6 text-paragraph pl-152">
-            <h2>What I'm up to</h2>
+          <div class="col-6 text-box pl-152">
+            <h2>Who am I?</h2>
             <p>
-              I am currently learning how to design responsive websites through
-              amazing SheCodes workshops. I am enrolled in SheCodes React
-              workshop.
+              I am environmental enginner poised to learn how to code.
+              Currently, I am enrolled in SheCodes React workshop where I am
+              learning how to design responsive websites.
             </p>
             <div>
-              <a href="#" class="btn btn-branding">Contact me</a>
+              <a href="#projects" class="btn btn-branding">What I do</a>
             </div>
           </div>
           <div class="col-6"></div>
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img src="/images/ballet.png" class="img-fluid" alt="ballet" />
-        </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Dance Studio Project</h2>
-            <p class="mb-5 text-muted">
-              SheCodes Basic workshop final project. Basic design for a homepage
-              of a dance studio from Novi Sad. Coded using basic knowledge from
-              HTML, CSS and JS.
-            </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
-          </div>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Weather Project</h2>
-            <p class="mb-5 text-muted">
+      <div class="section-lighter" id="projects">
+        <div class="row h-100">
+          <div class="col-6"></div>
+          <div class="col-6 text-box">
+            <h2>Ongoing projects</h2>
+            <p>
+              Dance school homepage built with basic knowledge of HTML, CSS and
+              JavaScript - SheCodes Basic workshop final project. Weather App
+              for desktop build with advanced HTML, CSS and Vanilla JavaScript -
               SheCodes Plus workshop final project.
-              <br />
-              Weather App with real time data using the open weather API.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
-          </div>
-        </div>
-        <div class="col d-none d-lg-block">
-          <img src="/images/weather.png" class="img-fluid pt-3" alt="" />
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img src="/images/dictionary.png" class="img-fluid" alt="" />
-        </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Dictionary Project</h2>
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <div>
+              <a href="#" class="btn btn-branding">Take a look</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="text-center m-5 p-5">
-      <a href="https://github.com/MilenaSavatovic/portfolio">
-        Coded by Milena Savatovic-GitHub link
-      </a>
+      <div class="section-bcg-darker">
+        <div class="row h-100">
+          <div class="col-12">
+            <div class="text-center text-box">
+              <h2>Have some projects in mind?</h2>
+
+              <div>
+                <a href="mailto:milenatul@gmail.com" class="btn btn-branding">
+                  Hire me
+                </a>
+              </div>
+              <div class="icons mt-5">
+                <a
+                  href="https://www.linkedin.com/in/milena-savatovi%C4%87-baa8baa4/"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/MilenaSavatovic" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <footer>
+              <div class="text-center m-5 p-5">
+                <a href="https://github.com/MilenaSavatovic/portfolio">
+                  Coded by Milena Savatovic-GitHub link
+                </a>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
