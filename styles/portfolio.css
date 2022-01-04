@@ -36,6 +36,7 @@ p {
   font-size: 24px;
   line-height: 30px;
   margin-top: 32px;
+  max-width: 550px;
 }
 
 footer {
@@ -104,8 +105,10 @@ footer {
     padding: 80px 20px;
   }
 
-  .project-description {
+  .section-lighter,
+  .section-bcg-darker {
     padding: 0;
     text-align: center;
+    height: unset;
   }
 }
