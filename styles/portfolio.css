@@ -107,6 +107,12 @@ footer {
   padding-bottom: 32px;
 }
 
+.container-fluid {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
 @media (max-width: 1000px) {
   h1 {
     font-size: 60px;
