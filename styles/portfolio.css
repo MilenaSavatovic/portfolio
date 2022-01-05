@@ -1,16 +1,16 @@
 :root {
-  --background-color-lighter: #f9f5f2;
-  --background-color-darker: #faeddd;
-  --background-color-third: #be5c5b;
+  --background-color-lighter-gray: #f3f3f3;
+  --background-color-darker-gray: #dbdbdb;
+  --background-color-dark-gray: #525252;
+  --background-color-turquoise: #3eafcf;
   --default-font-family: 'Poppins', sans-serif;
-  --button-color: #efbd64;
+  --button-color: #ba0000;
 }
 
 body {
   font-family: var(--default-font-family);
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -22,8 +22,10 @@ p {
 
 h1 {
   font-size: 105px;
+  font-weight: 300;
   line-height: 100px;
   margin: 32px 0;
+  color: var(--background-color-turquoise);
 }
 
 h2 {
@@ -39,29 +41,37 @@ p {
   max-width: 550px;
 }
 
-footer {
-  position: relative;
-  top: 200px;
-  background: var(--background-color-lighter);
-}
-
-.nav-design {
-  background-color: var(--background-color-third);
-  color: var(--background-color-lighter);
-  height: 52px;
-}
-
-.section-lighter {
-  background-color: var(--background-color-lighter);
+section {
   text-align: left;
   height: 650px;
   width: 100%;
 }
 
-.section-bcg-darker {
-  background-color: var(--background-color-darker);
-  text-align: left;
-  height: 650px;
+footer {
+  margin-top: 100px;
+}
+
+.border-style {
+  width: 70%;
+  border-top: medium solid var(--background-color-dark-gray);
+}
+
+.nav-design {
+  background-color: var(--background-color-dark-gray);
+  color: var(--background-color-lighter-gray);
+  height: 52px;
+}
+
+.bcg-light-gray {
+  background-color: var(--background-color-lighter-gray);
+}
+
+.bcg-darker-gray {
+  background-color: var(--background-color-darker-gray);
+}
+
+.bcg-turquoise {
+  background-color: var(--background-color-turquoise);
 }
 
 .text-box {
@@ -84,8 +94,9 @@ footer {
 
 .icons a {
   margin: 10px 20px;
-  color: var(--button-color);
+  color: var(--background-color-dark-gray);
   font-size: 32px;
+  text-decoration: none;
 }
 
 .icons a:hover {
@@ -99,10 +110,6 @@ footer {
   }
   h2 {
     font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .section-lighter,

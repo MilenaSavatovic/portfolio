@@ -22,14 +22,16 @@
     ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@200;300;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/portfolio.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark nav-design">
+    <nav class="navbar navbar-expand-lg navbar-dark nav-design fixed-top">
       <a class="navbar-brand" href="#">Navbar</a>
       <button
         class="navbar-toggler"
@@ -55,9 +57,13 @@
       </div>
     </nav>
     <div class="container-fluid">
-      <div class="section-lighter">
+      <section class="bcg-light-gray">
         <div class="row h-100">
-          <div class="col-sm-6"></div>
+          <div class="col-sm-6">
+            <div class="d-flex align-items-center justify-content-center h-100">
+              <img src="/images/circle.svg" alt="circle" />
+            </div>
+          </div>
           <div class="col-sm-6 text-box">
             <h2>Hello, I am</h2>
             <h1>Milena Savatović</h1>
@@ -71,8 +77,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="section-bcg-darker" id="more">
+      </section>
+      <section class="bcg-darker-gray" id="more">
         <div class="row h-100">
           <div class="col-sm-6 text-box pl-152">
             <h2>Who am I?</h2>
@@ -85,12 +91,20 @@
               <a href="#projects" class="btn btn-branding">What I do</a>
             </div>
           </div>
-          <div class="col-sm-6"></div>
+          <div class="col-sm-6">
+            <div class="d-flex justify-content-end align-items-start h-100">
+              <img src="/images/graphic2.svg" alt="dots" />
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="section-lighter" id="projects">
+      </section>
+      <section class="bcg-turquoise" id="projects">
         <div class="row h-100">
-          <div class="col-sm-6"></div>
+          <div class="col-sm-6">
+            <div class="d-flex justify-content-center align-items-end h-100">
+              <img src="/images/graphic3.svg" alt="leaf" />
+            </div>
+          </div>
           <div class="col-sm-6 text-box">
             <h2>Ongoing projects</h2>
             <p>
@@ -104,33 +118,36 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
       <div class="section-bcg-darker">
         <div class="row h-100">
           <div class="col-sm-12">
             <div class="text-center text-box">
+              <div>
+                <img src="/images/graphic4.svg" alt="lines" />
+              </div>
               <h2>Have some projects in mind?</h2>
 
               <div>
                 <a href="mailto:milenatul@gmail.com" class="btn btn-branding">
-                  Hire me
+                  Let's talk
                 </a>
               </div>
               <div class="icons mt-5">
+                <a href="https://github.com/MilenaSavatovic" target="_blank">
+                  <img src="/images/gitHubIcon.svg" alt="github" />
+                </a>
                 <a
                   href="https://www.linkedin.com/in/milena-savatovi%C4%87-baa8baa4/"
                   target="_blank"
                 >
-                  <i class="fab fa-linkedin"></i>
-                </a>
-
-                <a href="https://github.com/MilenaSavatovic" target="_blank">
-                  <i class="fab fa-github"></i>
+                  <img src="/images/linkedinIcon.svg" alt="linkedin" />
                 </a>
               </div>
             </div>
             <footer>
-              <div class="text-center m-5 p-5">
+              <div class="text-center mx-auto p-5 border-style">
                 <a href="https://github.com/MilenaSavatovic/portfolio">
                   Coded by Milena Savatovic-GitHub link
                 </a>
