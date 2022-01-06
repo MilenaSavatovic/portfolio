@@ -113,6 +113,16 @@ footer {
   overflow: hidden;
 }
 
+.skills-icons {
+  color: var(--background-color-lighter-gray);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.skills-icons i {
+  font-size: 24px;
+}
+
 @media (max-width: 1000px) {
   h1 {
     font-size: 60px;
@@ -150,5 +160,9 @@ footer {
   .icons img {
     height: 50px;
     width: 50px;
+  }
+
+  .skills-icons {
+    justify-content: space-evenly;
   }
 }
