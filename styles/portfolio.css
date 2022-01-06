@@ -107,6 +107,14 @@ footer {
   padding-bottom: 32px;
 }
 
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
 .container-fluid {
   padding-left: 0rem;
   padding-right: 0rem;
@@ -120,7 +128,11 @@ footer {
 }
 
 .skills-icons i {
-  font-size: 24px;
+  font-size: 32px;
+}
+
+.skills-icons div {
+  margin-right: 20px;
 }
 
 @media (max-width: 1000px) {
