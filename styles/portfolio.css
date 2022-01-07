@@ -83,6 +83,10 @@ footer {
   padding-left: 152px;
 }
 
+.pr-152 {
+  padding-right: 152px;
+}
+
 .btn-branding {
   border-radius: 50px;
   background: var(--button-color);
@@ -92,16 +96,19 @@ footer {
   margin-top: 48px;
 }
 
+.btn-branding:hover {
+  color: white;
+  background-color: rgb(172, 2, 2);
+}
+
 .btn-branding-secondary {
   border-radius: 50px;
-  background: var(--background-color-darker-gray);
-  color: var(--button-color);
+  background: transparent;
+  color: var(--background-color-dark-gray);
   font-size: 18px;
   padding: 10px 16px;
-  margin-top: 48px;
-  border: 1px solid var(--button-color);
-  margin-right: 10px;
-  margin-left: 20px;
+  margin-top: 32px;
+  border: 2px solid var(--background-color-dark-gray);
 }
 
 .icons a {
@@ -125,6 +132,10 @@ footer {
 
 .mt-32 {
   margin-top: 32px;
+}
+
+.mr-16 {
+  margin-right: 16px;
 }
 
 .container-fluid {
@@ -169,7 +180,7 @@ footer {
 
   section {
     padding: 80px 16px;
-    text-align: center;
+    text-align: left;
     height: unset;
   }
 
@@ -179,7 +190,11 @@ footer {
   }
 
   .pl-152 {
-    padding: 50px;
+    padding: 24px;
+  }
+
+  .pr-152 {
+    padding: 24px;
   }
 
   img {
