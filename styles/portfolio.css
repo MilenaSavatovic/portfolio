@@ -145,7 +145,7 @@ footer {
 }
 
 .skills-icons {
-  color: var(--background-color-lighter-gray);
+  color: var(--background-color-dark-gray);
   flex-wrap: wrap;
   justify-content: flex-start;
 }
@@ -179,7 +179,7 @@ footer {
   }
 
   section {
-    padding: 80px 16px;
+    padding: 60px 16px;
     text-align: left;
     height: unset;
   }
