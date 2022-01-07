@@ -92,6 +92,18 @@ footer {
   margin-top: 48px;
 }
 
+.btn-branding-secondary {
+  border-radius: 50px;
+  background: var(--background-color-darker-gray);
+  color: var(--button-color);
+  font-size: 18px;
+  padding: 10px 16px;
+  margin-top: 48px;
+  border: 1px solid var(--button-color);
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
 .icons a {
   margin: 10px 20px;
   color: var(--background-color-dark-gray);
@@ -133,6 +145,12 @@ footer {
 
 .skills-icons div {
   margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.project-img {
+  position: relative;
+  top: 150px;
 }
 
 @media (max-width: 1000px) {
@@ -146,11 +164,11 @@ footer {
 
   p {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 30px;
   }
 
   section {
-    padding: 50px 0;
+    padding: 80px 16px;
     text-align: center;
     height: unset;
   }
@@ -176,5 +194,10 @@ footer {
 
   .skills-icons {
     justify-content: space-evenly;
+  }
+
+  .skills-icons div {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
