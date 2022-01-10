@@ -164,6 +164,13 @@ footer {
   top: 150px;
 }
 
+.brand-design {
+  color: var(--background-color-darker-gray) !important;
+  margin-left: 70px;
+  font-size: 18px;
+  font-style: italic;
+}
+
 @media (max-width: 1000px) {
   h1 {
     font-size: 60px;
