@@ -1,10 +1,11 @@
 :root {
-  --background-color-lighter-gray: white;
-  --background-color-darker-gray: #f3f3f3;
-  --background-color-dark-gray: #525252;
-  --background-color-turquoise: #3eafcf;
+  --background-color-light: white;
+  --background-color-darker: #dfebed;
+  --background-color-dark: #2b4450;
+  --branding-color: #f78536;
+  --heading-font-family: 'Bebas Neue', cursive;
   --default-font-family: 'Poppins', sans-serif;
-  --button-color: #ba0000;
+  --button-color: #497285;
 }
 
 body {
@@ -17,15 +18,16 @@ h4,
 h5,
 h6,
 p {
-  color: #525252;
+  color: var(--background-color-dark);
 }
 
 h1 {
+  font-family: var(--heading-font-family);
   font-size: 105px;
   font-weight: 300;
   line-height: 100px;
   margin: 32px 0;
-  color: var(--background-color-turquoise);
+  color: var(--branding-color);
 }
 
 h2 {
@@ -53,25 +55,21 @@ footer {
 
 .border-style {
   width: 70%;
-  border-top: medium solid var(--background-color-dark-gray);
+  border-top: medium solid var(--background-color-dark);
 }
 
 .nav-design {
-  background-color: var(--background-color-dark-gray);
-  color: var(--background-color-lighter-gray);
+  background-color: var(--background-color-dark);
+  color: var(--background-color-light);
   height: 52px;
 }
 
-.bcg-light-gray {
-  background-color: var(--background-color-lighter-gray);
+.bcg-light {
+  background-color: var(--background-color-light);
 }
 
-.bcg-darker-gray {
-  background-color: var(--background-color-darker-gray);
-}
-
-.bcg-turquoise {
-  background-color: var(--background-color-turquoise);
+.bcg-darker {
+  background-color: var(--background-color-darker);
 }
 
 .text-box {
@@ -98,22 +96,22 @@ footer {
 
 .btn-branding:hover {
   color: white;
-  background-color: rgb(172, 2, 2);
+  background-color: var(--background-color-dark);
 }
 
 .btn-branding-secondary {
   border-radius: 50px;
   background: transparent;
-  color: var(--background-color-dark-gray);
+  color: var(--background-color-dark);
   font-size: 18px;
   padding: 10px 16px;
   margin-top: 32px;
-  border: 2px solid var(--background-color-dark-gray);
+  border: 2px solid var(--background-color-dark);
 }
 
 .icons a {
   margin: 10px 20px;
-  color: var(--background-color-dark-gray);
+  color: var(--background-color-dark);
   font-size: 32px;
   text-decoration: none;
 }
@@ -145,7 +143,7 @@ footer {
 }
 
 .skills-icons {
-  color: var(--background-color-dark-gray);
+  color: var(--background-color-dark);
   flex-wrap: wrap;
   justify-content: flex-start;
 }
@@ -165,10 +163,10 @@ footer {
 }
 
 .brand-design {
-  color: var(--background-color-darker-gray) !important;
+  font-family: var(--heading-font-family);
+  color: var(--background-color-darker) !important;
   margin-left: 70px;
   font-size: 18px;
-  font-style: italic;
 }
 
 @media (max-width: 1000px) {
