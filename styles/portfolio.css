@@ -3,7 +3,7 @@
   --background-color-darker: #dfebed;
   --background-color-dark: #2b4450;
   --branding-color: #f78536;
-  --heading-font-family: 'Bebas Neue', cursive;
+  --heading-font-family: 'Barlow Condensed', sans-serif;
   --default-font-family: 'Poppins', sans-serif;
   --button-color: #497285;
 }
@@ -24,7 +24,7 @@ p {
 h1 {
   font-family: var(--heading-font-family);
   font-size: 105px;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 100px;
   margin: 32px 0;
   color: var(--branding-color);
