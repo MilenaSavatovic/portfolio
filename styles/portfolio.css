@@ -22,7 +22,6 @@ p {
 }
 
 h1 {
-  font-family: var(--heading-font-family);
   font-size: 105px;
   font-weight: 100;
   line-height: 100px;
@@ -163,7 +162,6 @@ footer {
 }
 
 .brand-design {
-  font-family: var(--heading-font-family);
   color: var(--background-color-darker) !important;
   margin-left: 70px;
   font-size: 18px;
